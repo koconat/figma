@@ -1,0 +1,244 @@
+div {
+    border: 0px solid;
+}
+body{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    line-height: 140%;
+    /* identical to box height, or 35px */
+    letter-spacing: 0.1em;
+}
+
+.container {
+    width: 73%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.header__logo {
+    margin-left: 105px;
+    font-size: 35px;
+}
+.header__nav {
+    margin-right: 105px;
+    display: flex;
+}
+.header__nav-list {
+    display: flex;
+    height: 30px;
+    margin-right: 30px;
+    align-items: center;
+    font-size: 15px;
+}
+.header__nav-item {
+    padding: 0 20px;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+.main__title {
+    /* Одяг для всієї сім’ї */
+    font-weight: 900;
+    font-size: 35px;
+    text-transform: uppercase;
+    padding: 82px 0;
+}
+.main__left-side a{
+    /* Купити */
+    font-weight: 300;
+    font-size: 18px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 80%;
+}
+.control {
+    display: flex;
+    justify-content: space-between;   
+    padding-top: 50px;
+}
+.control__lang {
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+    height: 25px;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.control__lang a {
+    color: #000000;
+    text-decoration: none;
+}
+.control__lang_active {
+    font-weight: 700;
+}
+.control__image {
+   display: flex;
+   justify-content: space-between;
+   width: 180px;
+}
+.control__rect {
+    width: 20px;
+    height: 20px;
+    background: #E8E8E8;
+}
+.control__rect_active {
+    background: #959595;
+}
+.title {
+    /* Заголовок Н2 */
+    font-weight: 600;
+    font-size: 25px;
+    color: #000000;
+    margin-bottom: 70px;
+}
+.catalog {
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.catalog__row {
+    display: flex;
+    justify-content: space-between;   
+}
+.catalog__column {
+    width: 350px;
+    height: 350px;
+}
+.catalog__shadow {
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+    background-image: -webkit-linear-gradient(top, rgba(203, 221, 242, 0.6), rgba(255, 255, 255, 0)); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image: -moz-linear-gradient(top, rgba(203, 221, 242, 0.6), rgba(255, 255, 255, 0)); /* FF3.6 */
+    background-image: -ms-linear-gradient(top, rgba(203, 221, 242, 0.6), rgba(255, 255, 255, 0)); /* IE10 */
+    background-image: -o-linear-gradient(top, rgba(203, 221, 242, 0.6), rgba(255, 255, 255, 0)); /* Opera 11.10+ */
+    background: linear-gradient(33.82deg, rgba(203, 221, 242, 0.6) 37.04%, rgba(255, 255, 255, 0) 52.97%);
+}
+.catalog__name-group {
+    padding-top: 50%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+#men {
+    background-image: url(../img/men.jpg);
+}
+#women {
+    background-image: url(../img/women.jpg);
+}
+#kids {
+    background-image: url(../img/kids.jpg);
+}
+#newborn {
+    background-image: url(../img/newborn.jpg);
+}
+#shoes {
+    background-image: url(../img/shoes.jpg);
+}
+#acses {
+    background-image: url(../img/acses.jpg);
+}
+.about {
+    display: flex;
+    align-items: center;
+}
+.advance__row {
+    display: flex;
+    justify-content: space-between;
+}
+.advance__column {
+    width: 22%;
+    text-align: center;
+}
+.advance__title {
+/* Заголовок Н4 */
+font-weight: 600;
+font-size: 18px;
+padding: 5px;
+}
+.advance__description{
+    font-weight: 300;
+    font-size: 15px;
+}
+footer {
+    background: #868585;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer__logo {
+    /* snapdeal */
+    text-align: center;
+    width: 13.5%;
+    font-weight: 400;
+    font-size: 35px;
+}
+.footer {
+    width: 73%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__title {
+font-weight: 600;
+font-size: 20px;
+padding-bottom: 35px;
+}
+.footer__subfooter {
+    display: flex;
+}
+.footer__item {
+font-weight: 300;
+font-size: 15px;
+text-align: justify;
+}
+.footer__police {
+    padding-right: 80px;
+}
+.footer__contacts{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.footer__button-call {
+    box-sizing: border-box;
+    padding: 12px 30px;
+    width: 200px;
+    height: 45px;
+    border: 1px solid #FFFFFF;
+    background: none;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    color: #fff;
+    margin-bottom: 35px;
+}
+.footer__phone {
+/* +38 (0352) 28-78-21 */
+font-weight: 600;
+font-size: 20px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+}
+.footer__email {
+    /* site@gmail.com */
+font-weight: 400;
+font-size: 15px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+}
