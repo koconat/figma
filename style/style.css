@@ -103,10 +103,10 @@ header {
     margin-bottom: 70px;
 }
 .catalog {
-    height: 730px;
+    
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    
 }
 .catalog__row {
     display: flex;
@@ -115,6 +115,7 @@ header {
 .catalog__column {
     width: 350px;
     height: 350px;
+    gap: 30px;
 }
 .catalog__shadow {
     width: 300px;
