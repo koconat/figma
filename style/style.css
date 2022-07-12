@@ -103,20 +103,18 @@ header {
     margin-bottom: 70px;
 }
 .catalog {
-    
     display: flex;
     flex-direction: column;
-    gap:30px;
-    
+    gap:30px;  
 }
 .catalog__row {
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between;  
+    gap: 30px;
 }
 .catalog__column {
     width: 350px;
     height: 350px;
-    gap: 30px;
 }
 .catalog__shadow {
     width: 300px;
